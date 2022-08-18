@@ -1,0 +1,36 @@
+body{
+    font-family: 'DM Sans', sans-serif;}
+.container{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.header{
+    background: rgba(255, 113, 67, 0.27);
+    padding: 53px 0 53px;
+}
+.header__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_li{
+    display: inline-block;
+    }
+.nav_li:not(:first-of-type){
+    margin-left: 47px;
+}
+.nav_link{
+    font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+
+/* identical to box height */
+letter-spacing: 0.46px;
+
+color: #696871;
+text-decoration: none;
+}
+.nav_link:hover{
+    color: black;
+    transition: 300 ms;
+}
